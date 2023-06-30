@@ -17,9 +17,9 @@ const NavBarIcon = ({icon, text, page})=>{
     const navigate = useNavigate();
     const changePage = () => navigate(page);
     return(
-       <button className='sidebar-icon group' onClick={changePage}>
+       <button className='navbar-icon group' onClick={changePage}>
             {icon}
-            <span className='sidebar-tooltip group-hover:scale-100'>
+            <span className='navbar-tooltip group-hover:scale-100'>
                 {text}
             </span>
         </button>

@@ -1,7 +1,7 @@
 import SideBar from './NavBar.js';
 const App = () => {
   return (
-    <div className="flex v-screen h-screen bg-whiteBg">
+    <div className="flex h-screen w-screen bg-white">
       <SideBar />
     </div>
   );
