@@ -1,10 +1,10 @@
-import SideBar from './NavBar.js';
+import NavBar from '../NavBar.js';
+import React from "react";
 const App = () => {
   return (
     <div className="flex h-screen w-screen bg-white">
-      <SideBar />
+      <NavBar/>
     </div>
   );
 }
-
-export default App;
+export default App

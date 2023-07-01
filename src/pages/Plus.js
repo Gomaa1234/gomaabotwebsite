@@ -1,8 +1,10 @@
+import NavBar from '../NavBar.js';
 import React from "react";
-
 export const Plus = () => {
-    return (
-      <p>Plus</p>
-    );
+  return (
+    <div className="flex h-screen w-screen bg-white">
+      <NavBar />
+    </div>
+  );
 }
   

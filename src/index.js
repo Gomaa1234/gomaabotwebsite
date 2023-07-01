@@ -1,41 +1,36 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './pages/App';
 import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import {Fire} from "./pages/Fire";
 import {Plus} from "./pages/Plus";
 import {Settings} from "./pages/Settings";
 import {Lightning} from "./pages/Lightning";
-import {Poop} from "./pages/Poop"
+import {Download} from "./pages/Download"
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
   },
   {
-    path: "/pages/Fire",
-    element: <Fire />,
-  },
-  {
-    path: "/pages/Plus",
+    path: "/Plus",
     element: <Plus />,
   },
   {
-    path: "/pages/Settings",
+    path: "/Settings",
     element: <Settings />,
   },
   {
-    path: "/pages/Lightning",
+    path: "/Lightning",
     element: <Lightning />,
   },
   {
-    path: "/pages/Poop",
-    element: <Poop />,
+    path: "/Download",
+    element: <Download />,
   },
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));

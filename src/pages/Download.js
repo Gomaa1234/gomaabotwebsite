@@ -1,6 +1,6 @@
 import NavBar from '../NavBar.js';
 import React from "react";
-export const Lightning = () => {
+export const Download = () => {
   return (
     <div className="flex h-screen w-screen bg-white">
       <NavBar />
