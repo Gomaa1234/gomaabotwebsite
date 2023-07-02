@@ -4,7 +4,7 @@ import { FaDAndD } from "react-icons/fa6";
 import {useNavigate} from 'react-router-dom';
 const NavBar=()=>{
     return(
-        <div className="fixed top-32 left-0 w-screen h-16 m-0 flex flex-row bg-primary text-white shadow-lg">
+        <div className="top-32 left-0 h-16 m-0 flex flex-row bg-primary text-white shadow-lg">
             <NavBarIcon icon={<BsHouse size="32"/>} text={'Home Page'} page={'/'}/>
             <NavBarIcon icon={<BsGearFill size="32"/>} text={'Settings'} page={'/Settings'}/>
             <NavBarIcon icon={<BsPlusLg size="32"/>} text={'Plus'} page={'/Plus'}/>
