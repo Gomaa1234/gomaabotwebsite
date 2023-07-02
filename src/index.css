@@ -21,7 +21,7 @@
     @apply relative flex items-center justify-center font-sans text-4xl h-28 w-full
   }
   .Body{
-    @apply absolute flex items-center justify-center font-sans h-full w-full top-48 
-    bg-primary text-white text-lg font-medium
+    @apply absolute p-16 font-sans h-full w-full top-48 
+    bg-primary text-white
   }
 }
