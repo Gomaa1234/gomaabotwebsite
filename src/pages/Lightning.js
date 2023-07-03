@@ -1,6 +1,6 @@
-import NavBar from '../NavBar.js';
-import Header from '../Header.js';
-import Body from '../Body.js';
+import NavBar from "../NavBar.js";
+import Header from "../Header.js";
+import Body from "../Body.js";
 import React from "react";
 export const Lightning = () => {
   return (
@@ -10,5 +10,4 @@ export const Lightning = () => {
       <Body />
     </div>
   );
-}
-  
+};
