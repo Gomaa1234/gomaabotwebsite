@@ -1,6 +1,6 @@
-import NavBar from "../NavBar.js";
-import Header from "../Header.js";
-import Body from "../Body.js";
+import NavBar from '../NavBar.js';
+import Header from '../Header.js';
+import Body from '../Body.js';
 import React from "react";
 const App = () => {
   return (
@@ -10,5 +10,5 @@ const App = () => {
       <Body />
     </div>
   );
-};
-export default App;
+}
+export default App
