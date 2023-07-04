@@ -4,31 +4,31 @@ import { FaDAndD } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
 const NavBar = () => {
   return (
-    <div className="top-32 left-0 h-16 m-0 flex flex-row bg-gray-500 text-white shadow-lg">
+    <div className="left-0 top-32 m-0 flex h-16 flex-row bg-gray-500 text-white shadow-lg">
       <NavBarIcon 
         icon={<BsHouse size="32" />} 
         text={"Home Page"} 
         page={"/"} 
       />
       <NavBarIcon
-        icon={<BsGearFill size="32" />}
-        text={"Settings"}
-        page={"/Settings"}
+        icon={<FaDAndD size="32" />}
+        text={"D&D"}
+        page={"/Lightning"}
       />
       <NavBarIcon 
         icon={<BsPlusLg size="32" />} 
         text={"Plus"} 
         page={"/Plus"} 
-      />
-      <NavBarIcon 
-        icon={<FaDAndD size="32" />}
-        text={"D&D"}
-        page={"/Lightning"}
-      />
+        />
       <NavBarIcon
         icon={<BsDownload size="32" />}
         text={"Download"}
         page={"/Download"}
+      />
+      <NavBarIcon
+        icon={<BsGearFill size="32" />}
+        text={"Settings"}
+        page={"/Settings"}
       />
     </div>
   );
@@ -38,11 +38,11 @@ const NavBarIcon = ({ icon, text, page }) => {
   const changePage = () => navigate(page);
   return (
     <button
-      className="relative flex items-center justify-center h-12 w-64 mt-2 mb-2 mx-auto shadow-md bg-gray-700 text-white rounded-2xl hover:bg-gray-800 hover:rounded-lg transition-all duration-100 ease-linear cursor-pointer group"
+      className="group relative mx-auto mb-2 mt-2 flex h-12 w-64 cursor-pointer items-center justify-center rounded-2xl bg-gray-700 text-white shadow-md transition-all duration-100 ease-linear hover:rounded-lg hover:bg-gray-800"
       onClick={changePage}
     >
       {icon}
-      <span className="absolute w-auto p-2 m-2 min-w-full top-14 rounded-md shadow-md text-white bg-gray-800 text-xs font-bold transition-all duration-100 scale-0 origin-bottom z-10 group-hover:scale-100">
+      <span className="absolute top-14 z-10 m-2 w-auto min-w-full origin-bottom scale-0 rounded-md bg-gray-800 p-2 text-xs font-bold text-white shadow-md transition-all duration-100 group-hover:scale-100">
         {text}
       </span>
     </button>

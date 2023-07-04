@@ -39,19 +39,29 @@ const Body = () => {
           <h1 className=" text-center text-2xl">Lorem ipsum</h1>
         </div>
         <div className=" flex flex-row items-start justify-center ">
-          <div className=" mx-6 flex h-16 w-16 cursor-pointer items-center justify-center rounded-full bg-gray-300 text-base text-gray-900 transition-all duration-150 ease-linear hover:bg-slate-900 hover:text-gray-300">
+          <div className=" mx-6 flex h-16 w-16 cursor-pointer items-center justify-center rounded-full 
+                        bg-gray-300 text-base text-gray-900 transition-all duration-100 ease-linear 
+                        hover:bg-slate-900 hover:text-gray-300">
             <FaDiscord size={42} />
           </div>
-          <div className=" mx-6 flex h-16 w-16 cursor-pointer items-center justify-center rounded-full bg-gray-300 text-base text-gray-900 transition-all duration-150 ease-linear hover:bg-slate-900 hover:text-gray-300">
+          <div className=" mx-6 flex h-16 w-16 cursor-pointer items-center justify-center rounded-full 
+                        bg-gray-300 text-base text-gray-900 transition-all duration-100 ease-linear 
+                        hover:bg-slate-900 hover:text-gray-300">
             <FaGithub size={42} />
           </div>
-          <div className=" mx-6 flex h-16 w-16 cursor-pointer items-center justify-center rounded-full bg-gray-300 text-base text-gray-900 transition-all duration-150 ease-linear hover:bg-slate-900 hover:text-gray-300">
+          <div className=" mx-6 flex h-16 w-16 cursor-pointer items-center justify-center rounded-full 
+                        bg-gray-300 text-base text-gray-900 transition-all duration-100 ease-linear 
+                        hover:bg-slate-900 hover:text-gray-300">
             <FaNodeJs size={42} />
           </div>
-          <div className=" mx-6 flex h-16 w-16 cursor-pointer items-center justify-center rounded-full bg-gray-300 text-base text-gray-900 transition-all duration-150 ease-linear hover:bg-slate-900 hover:text-gray-300">
+          <div className=" mx-6 flex h-16 w-16 cursor-pointer items-center justify-center rounded-full 
+                        bg-gray-300 text-base text-gray-900 transition-all duration-100 ease-linear 
+                        hover:bg-slate-900 hover:text-gray-300">
             <FaReact size={42} />
           </div>
-          <div className=" mx-6 flex h-16 w-16 cursor-pointer items-center justify-center rounded-full bg-gray-300 text-base text-gray-900 transition-all duration-150 ease-linear hover:bg-slate-900 hover:text-gray-300">
+          <div className=" mx-6 flex h-16 w-16 cursor-pointer items-center justify-center rounded-full 
+                        bg-gray-300 text-base text-gray-900 transition-all duration-100 ease-linear 
+                        hover:bg-slate-900 hover:text-gray-300">
             <FaTrello size={42} />
           </div>
         </div>
